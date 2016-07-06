@@ -1,0 +1,108 @@
+Body {
+    width: 840px;
+    height: auto;
+    color: #47a3da;
+    font-family: Arial;
+}
+.header-content {
+    display: flex-block;
+    width: 100%;
+    height:100px;
+}
+.header-links {
+    display: inline-block;
+}
+.header-developer {
+    display: flex-block;
+}
+.Blueprint {
+    float: left;
+    margin: 0;
+    height: 0;
+    display: flex;
+}
+.business {
+    float: left;
+    display: flex;
+    color:
+}
+.Main-tabs {
+    float: left;
+    display: flex;
+    height: auto;
+    width: 840px;
+    margin: 0 auto;
+}
+.tabs-nav {
+    justify-content: space-between;
+}
+.tabs-nav_link {
+    display: flex;
+    float: left;
+    margin-right: 4px;
+    padding: 10px;
+}
+.tabs-nav_link > a{
+  display: flex;
+}
+.tabs-nav_link > p{
+  margin: 0 auto;
+}
+.shop-tab-content {
+    float: right;
+    display: flex;
+}
+.shop-tab-content > p {
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.shop-tab-content > .dish1 {
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.dish1 > img {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+}
+.shop-tab-content > .dish2{
+  margin-right: 5px;
+  display: flex;;
+  flex-direction: column;
+}
+.dish2 > img {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+}
+.shop-tab-content > .dish3{
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.dish3 > img {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+}
+.food-shapes {
+    float: left;
+}
+
+!---------------510px--------------------!
+
+@media screen and (max-width: 510px){
+
+img {
+  max-width: 30%;
+  float: left;
+}
+}
+
+!------------------400px-------------------!
+
+@media screen and (max-width: 400px){
+
+}
